@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    box-sizing: content-box;
+}
+
+:root{
+    --color-pink: #FF8484;
+    --color-light-yellow: #F7D9C4;
+    --color-text-header: #212529;
+    --color-text: #232323;
+    --color-background-1: #1B2026;
+    --color-background-2: #31363B;
+    --color-background-3: #EFEFEF;
+    --color-background-4: #DCE8EB;
+    --font: "DM Sans", sans-serif;
+}
+
+body{
+    font-family: var(--font);
+    color: var(--color-four);
+}
+
+.container{
+    width: 100%;
+    max-width: 1108px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+/* Button */
+.button{
+    padding: 16px 41.6px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid var(--color-four);
+    margin: 9.6px;
+    display: inline-block;
+}
+
+.button:hover{
+    color: var(--color-four);
+    background-color: white;
+}
+
+.button2{
+    background-color: var(--color-two);
+    border: 2px solid #31363b93;
+    color: white;
+    transition: 0.5s;
+}
+
+.button2:hover{
+    color: var(--color-text);
+    background-color: var(--color-light-yellow);
+    border-color: transparent;
+}
+
+.button1{
+    background-color: var(--color-light-yellow);
+    color: var(--color-text);
+    transition: 0.5s;
+    border: 2px;
+}
+
+.button1:hover{
+    color: var(--color-one);
+}
+
+.button3{
+    background-color: var(--color-text);
+    color: white;
+    transition: 0.5s;
+}
+
+.button3:hover{
+    background-color: var(--color-light-yellow);
+    color: var(--color-text);
+}   
+/* Button */
